@@ -6,10 +6,10 @@ const tab = new Array({
 
 })
 butt.addEventListener('click', function(){
-con.textContent="Tegla3 est infini";
-con.style.color="black";
+con.textContent=' "Tegla3 est infini" ';
 
 
-con.style.border="red 1px solid"; 
-aut.textContent="mikou" ; 
+
+
+aut.textContent="-mikou-" ; 
 })

@@ -73,6 +73,11 @@ flex-direction:column;
     }
 
     .cadre p{
+        margin-bottom: 10px;
+        font-family: 'Inter';
+        font-style: italic;
+    color:#3C3B3B; 
+        border: #033962 1px solid;
         text-align: center;
         font-size: 20px;
     }
