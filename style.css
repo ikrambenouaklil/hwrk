@@ -117,8 +117,10 @@ top:367px;
 }
 
 .secfav{
+    padding-top:208px ;
+    
     position: absolute;
-  top:986px ;
+  top:798px ;
   width: 100%;
     display: flex;
     justify-content: center;
@@ -171,21 +173,7 @@ top:367px;
     top: 354px;
     color: #033962;
 }
-.R{
-    position: absolute;
-    width: 181px;
-    right: 0px;
-    height: 272;
-    top: 1559px
 
-}
-.L{
-    position: absolute;
-    width: 125.67000000000002px;
-    height: 366.64px;
-    top: 1989.5100000000002px;
-   left: 0px;
-}
 .foot{
 display: flex;
 align-items: center;
