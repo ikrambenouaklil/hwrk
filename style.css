@@ -87,7 +87,7 @@ position: absolute;
 width: 620px;
 height: 436px;
 
-top: 382px;
+top: 347px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -148,12 +148,13 @@ top:367px;
     color: #077BAB;
 }
 .about{
-   
+ 
     position: absolute;
     top: 1685px;
     display: flex;
     align-items: center;
     padding: 40px;
+    padding-top: 100px;
 }
 .pic{
     border: #033962 4px solid;
@@ -170,7 +171,7 @@ top:367px;
     position: absolute;
     padding: 0px;
     width: 228px;
-    top: 354px;
+    top: 414px;
     color: #033962;
 }
 
@@ -181,10 +182,19 @@ position: absolute;
 width: 611px;
 height: 70px;
 left: 110px;
-top: 2433px;
+top: 2350px;
 }
 .foot img{
  width: 50px;
 height: 50px;
 padding: 0 20px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.nav:hover{
+    transform: scale(1.1);
+}
+.foot img:hover{
+    transform: scale(1.1);
 }
