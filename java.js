@@ -7,6 +7,5 @@ const tab = new Array({
 })
 butt.addEventListener('click', function(){
 con.textContent=' "Tegla3 est infini" ';
-
 aut.textContent="-mikou-" ; 
 })
