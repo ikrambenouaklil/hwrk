@@ -9,5 +9,9 @@ butt.addEventListener('click', function(){
 con.textContent="Tegla3 est infinie";
 con.style.color="black";
 con.style.fontSize="20px"; 
+con.style.textAlign="center"; 
+con.style.border="red 1px solid"; 
+
+
 aut.textContent="mikou" ; 
 })
