@@ -4,7 +4,7 @@ var aut= document.getElementById("author"); //get id of the author
 var quotes = [
     {
         quote: ' "Tegla3 est infini"',
-        author: "-mikou-"
+        author: "-mikou vice président-"
     },
     {
         quote: ' "duk nht chelkha msg"',
