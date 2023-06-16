@@ -1,29 +1,29 @@
 var butt= document.getElementById("gen"); //get the id of the generate button
 var con= document.getElementById("content");//get the id of quote 
 var aut= document.getElementById("author"); //get id of the author
-
-butt.addEventListener('click', function(){
-con.textContent=' "Tegla3 est infini"';
-aut.textContent="-mikou-" ; 
 var quotes = [
     {
         quote: ' "Tegla3 est infini"',
-        author: "-mikou vice president-"
+        author: "-mikou-"
     },
     {
-        quote: ' "chelkha msg"',
-        author: "-Sofiane chikhi ex RH leader-"
+        quote: ' "duk nht chelkha msg"',
+        author: "-Sofiane chikhi-"
 },{
     quote: ' "nanani nana"',
-    author: "-Adam design leader-"
+    author: "-Adam design leader tae design-"
 },{
-    quote: ' "tarararaaaaaaaa"',
+    quote: ' "tarararaaaaaa"',
     author: "-Sara tae Ai trainings-"
-},{
-    quote: ' "Akhdm ll club ykhdmlk"',
-    author: "-Sofiane chikhi ex RH leader-"
 }]
-
-
+var i=0; 
+butt.addEventListener('click', function(){
+if(i>=quotes.length){
+    i=0;
+}else{
+i++; 
+}
+con.textContent=quotes[i].quote; 
+aut.textContent=quotes[i].author; 
 
 })
